@@ -38,7 +38,7 @@ PREPROCESS_FILES=../eidlib/eidlib.i
 preprocess.name = execute swig to generate java and c++ wrapper
 preprocess.input = PREPROCESS_FILES
 preprocess.output = ./GeneratedFiles/eidlibJava_Wrapper.cpp
-preprocess.commands = ./create_java_files.sh
+preprocess.commands = echo "huh?" && ./create_java_files.sh
 QMAKE_EXTRA_COMPILERS += preprocess
 preprocess.variable_out+=SOURCES
 }

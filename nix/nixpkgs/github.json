@@ -1,0 +1,8 @@
+{
+  "owner": "alexfmpe",
+  "repo": "nixpkgs",
+  "branch": "postinstall-poppler-qt5",
+  "private": false,
+  "rev": "b0a787011a9b210b45e213dc813efde36c25cacd",
+  "sha256": "sha256:0bk2sc53scxmwa103zmlbb3xfmybcjgl3gzpp3y93xa4gba4fjdz"
+}

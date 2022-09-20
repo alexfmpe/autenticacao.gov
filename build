@@ -1,0 +1,5 @@
+cd pteid-mw-pt/_src/eidmw
+qmake pteid-mw.pro
+make
+
+# shebang create_java_files.sh

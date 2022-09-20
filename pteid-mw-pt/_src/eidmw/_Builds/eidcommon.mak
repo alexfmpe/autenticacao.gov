@@ -58,3 +58,6 @@ isEmpty(PKG_NAME){
 }
 
 include ($${PKG_NAME}versions.mak)
+
+CONFIG += link_pkgconfig
+PKGCONFIG += libpcsclite
