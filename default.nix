@@ -1,11 +1,5 @@
 let
-  pkgs = import ./nix/nixpkgs {
-    config = {
-      packageOverrides = pkgs: {
-        openssl = pkgs.openssl_1_1;
-      };
-    };
-  };
+  pkgs = import ./nix/nixpkgs {};
 in
  pkgs.mkShell {
    packages = with pkgs;
