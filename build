@@ -1,0 +1,8 @@
+cd pteid-mw-pt/_src/eidmw
+qmake pteid-mw.pro
+cd eidlibJava_Wrapper
+./create_java_files.sh
+cd ..
+make
+#
+# shebang create_java_files.sh

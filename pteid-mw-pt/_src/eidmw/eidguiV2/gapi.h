@@ -34,7 +34,7 @@
 	#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-#include <poppler-qt5.h>
+#include <poppler/qt5/poppler-qt5.h>
 
 #ifdef WIN32
 	#pragma warning(pop)
